@@ -1,0 +1,9 @@
+
+create table user(
+    id int not null primary key auto_increment,
+    email varchar(50) not null unique,
+    password varchar(50) not null
+)
+
+
+insert into user(email,password) values ("a1@gmail.com","Anil@123");
